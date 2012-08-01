@@ -2,7 +2,7 @@
 
 Demo available at http://smurl.co
 
-I suck at html/css. If you'd like to, you can completely redesign it and make a pull request.
+I suck at html/css. I copied the current one from a tutorial and never bothered doing a clean url list. If you'd like to, you can completely redesign it and make a pull request.
 
 ## License
 
