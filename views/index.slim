@@ -38,6 +38,18 @@ html
             json = JSON.parse(xhr.responseText)
             alert json.message
 
+      _gaq = _gaq or []
+      _gaq.push ["_setAccount", "UA-33892684-1"]
+      _gaq.push ["_trackPageview"]
+      (->
+        ga = document.createElement("script")
+        ga.type = "text/javascript"
+        ga.async = true
+        ga.src = ((if "https:" is document.location.protocol then "https://ssl" else "http://www")) + ".google-analytics.com/ga.js"
+        s = document.getElementsByTagName("script")[0]
+        s.parentNode.insertBefore ga, s
+      )()
+
   scss:
     html {
       height: 100%; }
