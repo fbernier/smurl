@@ -16,3 +16,5 @@ gem 'therubyracer'
 gem 'cutest'
 #gem 'capybara'
 gem 'rack-test'
+
+gem 'newrelic_rpm'
