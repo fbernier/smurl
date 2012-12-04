@@ -3,6 +3,7 @@ require "cuba/render"
 require 'uri'
 require 'oj'
 require 'slim'
+require "newrelic_rpm"
 require_relative 'urlhelper'
 
 Cuba.plugin Cuba::Render
