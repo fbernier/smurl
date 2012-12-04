@@ -19,3 +19,4 @@ gem 'cutest'
 gem 'rack-test'
 
 gem 'newrelic_rpm'
+gem 'newrelic-redis'
